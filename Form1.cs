@@ -44,7 +44,10 @@ namespace PDFReader
                 }
             }
         }
-
+        /// <summary>
+        /// Method to read content from pdf file
+        /// </summary>
+        /// <param name="fileName"></param>
         private void ReadPdfFile(string fileName)
         {
             var sb = new StringBuilder();
